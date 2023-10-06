@@ -1,0 +1,137 @@
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: 2px solid #777; /* Add a border at the bottom */
+}
+
+/* Navigation bar links */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* On hover, the links will change color */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create a dropdown menu when the screen is small */
+@media screen and (max-width: 600px) {
+    .navbar a {
+        float: none;
+        display: inline;
+        text-align: left;
+    }
+}
+.product {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    display: flex;
+}
+
+.product-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.main {
+    max-width: 100%;
+    height: auto;
+}
+.smallimage {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.product-details {
+    flex: 1;
+}
+
+.price-sticker {
+    display: flex;
+    align-items: center; /* Vertically center elements within the flex container */
+}
+
+.price {
+    color: #333;
+}
+
+.sticker {
+    background-color: rgb(238, 201, 153); /* Red background for the sticker */
+    color: rgb(255, 123, 0);
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px; 
+    font-size: 12px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #d6d6d6;
+    width: 100px;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.quantity-button {
+    background-color:#d6d6d6;
+    color: rgb(43, 43, 43);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.quantity-value {
+    font-size: 1.2rem;
+    margin: 0 10px;
+
+}
+.product-details> h6{
+    font-size: 16px;
+    color: rgb(252, 168, 12);
+}
+.add1 {
+    display: flex;
+    align-items: center;
+    background-color: #ffa601;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px; 
+    border-radius: 10px;
+}
+
+.add1 img {
+    margin-left: 10px;
+    color: white;
+    
+
+}
+
